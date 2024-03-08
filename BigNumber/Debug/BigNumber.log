@@ -1,0 +1,2 @@
+﻿  BigNumber.cpp
+E:\program\Interview\interview\BigNumber\BigNumber.cpp(4,5): error C2365: “log”: 重定义；以前的定义是“函数”

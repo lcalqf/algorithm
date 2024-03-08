@@ -1,0 +1,12 @@
+﻿  longest-substring-without-repeating-characte.cpp
+E:\program\Interview\interview\leetcode-two-sum\longest-substring-without-repeating-characte.cpp(47,16): error C2011: “Solution”:“class”类型重定义
+E:\program\Interview\interview\leetcode-two-sum\longest-substring-without-repeating-characte.cpp(16): message : 参见“Solution”的声明
+E:\program\Interview\interview\leetcode-two-sum\longest-substring-without-repeating-characte.cpp(89,21): error C2059: 语法错误:“)”
+E:\program\Interview\interview\leetcode-two-sum\longest-substring-without-repeating-characte.cpp(110,1): fatal error C1004: 发现意外的文件尾
+  replace_string.cpp
+E:\program\Interview\interview\leetcode-two-sum\replace_string.cpp(47,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\program\Interview\interview\leetcode-two-sum\replace_string.cpp(51,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\program\Interview\interview\leetcode-two-sum\replace_string.cpp(61,43): error C2664: “void FindAndReplace(char *,char *,char *,char *)”: 无法将参数 3 从“const char [3]”转换为“char *”
+E:\program\Interview\interview\leetcode-two-sum\replace_string.cpp(61,27): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+E:\program\Interview\interview\leetcode-two-sum\replace_string.cpp(11,6): message : 参见“FindAndReplace”的声明
+  正在生成代码...

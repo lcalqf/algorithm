@@ -1,0 +1,35 @@
+﻿  main.cpp
+E:\program\Interview\interview\blocking_queue\main.cpp(31,1): error C2059: 语法错误:“for”
+E:\program\Interview\interview\blocking_queue\main.cpp(31,23): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(31,23): error C2143: 语法错误: 缺少“;”(在“!=”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(31,23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(31,31): error C2059: 语法错误:“)”
+E:\program\Interview\interview\blocking_queue\main.cpp(32,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\program\Interview\interview\blocking_queue\main.cpp(36,4): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(36,4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(36,16): error C2039: "iterator": 不是 "`global namespace'" 的成员
+E:\program\Interview\interview\blocking_queue\main.cpp(37,1): error C2059: 语法错误:“if”
+E:\program\Interview\interview\blocking_queue\main.cpp(38,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(38,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\program\Interview\interview\blocking_queue\main.cpp(41,4): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(41,4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(41,1): error C2086: “int map”: 重定义
+E:\program\Interview\interview\blocking_queue\main.cpp(36): message : 参见“map”的声明
+E:\program\Interview\interview\blocking_queue\main.cpp(41,16): error C2039: "iterator": 不是 "`global namespace'" 的成员
+E:\program\Interview\interview\blocking_queue\main.cpp(42,1): error C2059: 语法错误:“for”
+E:\program\Interview\interview\blocking_queue\main.cpp(42,27): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(42,27): error C2143: 语法错误: 缺少“;”(在“!=”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(42,27): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(42,39): error C2059: 语法错误:“)”
+E:\program\Interview\interview\blocking_queue\main.cpp(43,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\program\Interview\interview\blocking_queue\main.cpp(52,14): warning C4467: 已弃用 ATL 属性的使用情况
+E:\program\Interview\interview\blocking_queue\main.cpp(52,14): error C2337: “caputer”: 未找到特性
+E:\program\Interview\interview\blocking_queue\main.cpp(52,10): error C2146: 语法错误: 缺少“]”(在标识符“list”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(52,14): error C2143: 语法错误: 缺少“;”(在“]”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(52,14): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(52,61): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(52,61): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\program\Interview\interview\blocking_queue\main.cpp(53,11): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(53,18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\program\Interview\interview\blocking_queue\main.cpp(54,11): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+E:\program\Interview\interview\blocking_queue\main.cpp(54,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int

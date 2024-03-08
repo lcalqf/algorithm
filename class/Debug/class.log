@@ -1,0 +1,4 @@
+﻿  class.cpp
+E:\program\Interview\interview\class\class.cpp(110,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\class\class.cpp(112,17): warning C4018: “<”: 有符号/无符号不匹配
+  class.vcxproj -> E:\program\Interview\interview\Debug\class.exe

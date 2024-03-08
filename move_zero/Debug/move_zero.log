@@ -1,0 +1,4 @@
+﻿  move_zero.cpp
+E:\program\Interview\interview\move_zero\move_zero.cpp(26,19): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\move_zero\move_zero.cpp(33,19): warning C4018: “<”: 有符号/无符号不匹配
+  move_zero.vcxproj -> E:\program\Interview\interview\Debug\move_zero.exe

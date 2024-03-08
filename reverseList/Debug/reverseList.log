@@ -1,0 +1,3 @@
+﻿  reverse.cpp
+E:\program\Interview\interview\reverseList\reverse.cpp(84,12): warning C4101: “NewHead”: 未引用的局部变量
+  reverseList.vcxproj -> E:\program\Interview\interview\Debug\reverseList.exe

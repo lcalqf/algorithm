@@ -1,0 +1,4 @@
+﻿  tree.cpp
+E:\program\Interview\interview\tree\tree.cpp(34,11): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\tree\tree.cpp(251,16): warning C4018: “<”: 有符号/无符号不匹配
+  tree.vcxproj -> E:\program\Interview\interview\Debug\tree.exe

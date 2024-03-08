@@ -1,0 +1,3 @@
+﻿  多态.cpp
+E:\program\Interview\interview\c++多态\多态.cpp(37,16): error C2440: “初始化”: 无法从“Base”转换为“Inherit”
+E:\program\Interview\interview\c++多态\多态.cpp(37,13): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符

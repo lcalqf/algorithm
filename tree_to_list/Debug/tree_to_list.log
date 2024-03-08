@@ -1,0 +1,4 @@
+﻿  tree_to_list.cpp
+E:\program\Interview\interview\tree_to_list\tree_to_list.cpp(48,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\tree_to_list\tree_to_list.cpp(85,20): warning C4018: “<”: 有符号/无符号不匹配
+  tree_to_list.vcxproj -> E:\program\Interview\interview\Debug\tree_to_list.exe

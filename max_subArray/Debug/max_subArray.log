@@ -1,0 +1,3 @@
+﻿  max_subArray.cpp
+E:\program\Interview\interview\max_subArray\max_subArray.cpp(145,20): warning C4018: “<”: 有符号/无符号不匹配
+  max_subArray.vcxproj -> E:\program\Interview\interview\Debug\max_subArray.exe

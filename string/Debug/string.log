@@ -1,0 +1,5 @@
+﻿  main.cpp
+  MyString.cpp
+E:\program\Interview\interview\string\MyString.cpp(79,8): warning C4018: “>=”: 有符号/无符号不匹配
+  正在生成代码...
+  string.vcxproj -> E:\program\Interview\interview\Debug\string.exe

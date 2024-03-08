@@ -1,0 +1,8 @@
+﻿  minPathSum.cpp
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(16,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(21,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(26,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(28,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(39,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\program\Interview\interview\minPathSum\minPathSum.cpp(41,21): warning C4018: “<”: 有符号/无符号不匹配
+  minPathSum.vcxproj -> E:\program\Interview\interview\Debug\minPathSum.exe
