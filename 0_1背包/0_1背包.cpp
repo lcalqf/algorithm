@@ -19,7 +19,7 @@ void test_1_wei_bag_problem() {
 			dp[j] = max(dp[j], dp[j - weight[i]] + value[i]);
 			cout << dp[j] << " ";
 		}
-		cout << "\n" << endl;
+		cout <<0<< "\n" << endl;
 	}
 	cout << dp[bagWeight] << endl;
 }

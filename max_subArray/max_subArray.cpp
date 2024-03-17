@@ -139,12 +139,12 @@ int maxSubArray(vector<int>& nums) {
 		return 0;
 	//dp表示指针指向第i个元素时，最长子数组的和   
 	vector<int>dp = vector<int>(nums.size(), 0);
-	//最大在子数组和,最开始res最大肯定是nums[0]的值
+	//最大子数组和,最开始res最大肯定是nums[0]的值
 	int res = nums[0];
 	dp[0] = nums[0];
 	for (int i = 1; i < nums.size(); i++)
 	{
-		//因为dp[i]是表示，到下标i时，最大子数组的长度，
+		//因为dp[i]是表示到下标i时最大子数组的和，
 		//所以nums[i]是必须会选入的
 		dp[i] = max(dp[i - 1] + nums[i], nums[i]);
 		res = max(res, dp[i]);

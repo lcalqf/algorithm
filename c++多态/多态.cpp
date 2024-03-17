@@ -34,8 +34,8 @@ public:
 int main()
 {
 	Base b;
-	Inherit &in = &b;
-	in.Hello();
+	Inherit *in = &b;
+	in->Hello();
 	getchar();
 	return 0;
 }

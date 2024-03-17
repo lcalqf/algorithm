@@ -5,7 +5,8 @@
 //
 //子序列定义为：不改变剩余字符顺序的情况下，删除某些字符或者不删除任何字符形成的一个序列。
 
-
+//dp数组的含义
+//dp[i][j]是坐标i 到坐标j 之间，最大的回文字符串长度
 #include <iostream>
 #include <string>
 #include <vector>
@@ -21,7 +22,7 @@ class Solution {
         int length = s.length();
         //创建二维dp数组
         vector<vector<int>>dp(length,vector<int>(length));
-       //遍历
+       //从字符串的右边遍历
         for (int i = length-1;i>0;i--)
         {
             dp[i][i] = 1;
@@ -29,18 +30,21 @@ class Solution {
             {
                 if (s[i] == s[j])
                 {
+                    //字符串两头，新的字符相等，那总的回文长度就是现在的长度加2
                     dp[i][j] = dp[i + 1][j - 1] + 2;
                 }
-                else
+                else //字符串两头新的字符不相等，那把这两头的那个字符加入后使最终的回文串最长，就选择把那个加入进来
                     dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]);
             }
         }
+        //从下标0 到 length-1，最长的回文串的长度
         return dp[0][length - 1];
     }
 };
 int main()
 {
     std::cout << "Hello World!\n";
+    return 0;
 }
 
  

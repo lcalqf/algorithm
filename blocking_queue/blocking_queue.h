@@ -20,7 +20,7 @@ public:
 		}
 		_condvar.notify_all();
 	}
-	T Take()
+	T Take()0
 	{
 		std::unique_lock<std::mutex>lock(_mutex);
 		//等待时线程挂起不占时间片

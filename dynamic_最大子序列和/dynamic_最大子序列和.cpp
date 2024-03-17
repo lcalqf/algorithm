@@ -22,15 +22,15 @@
 
  解题思路：
  首先，我们来进行状态的定义：（状态就是结果，是前面一段的决策结果）
- 我们假设v(i) 能表示下标为 i 时连续数组的最大和。
- 状态的定义确实是个技术活。v(i) 是需要包含nums[ i ]的，这样才能保证连续性，
- 也就是说，v[ i ]并不是代表的前i + 1 的最大子序列的和。而是包含nuns[i ]的最大子序列的和。
+ 我们假设dp(i) 能表示下标为 i 时连续数组的最大和。
+ 状态的定义确实是个技术活。dp(i) 是需要包含nums[ i ]的，这样才能保证连续性，
+ 也就是说，dp[ i ]并不是代表的前i + 1 的最大子序列的和。而是包含nuns[i ]的最大子序列的和。
 
  接下来就可以写出状态转移方程：
- v(i) = max(v(i - 1) + nums[i] ,  nums[ i ])
+ dp(i) = max(dp(i - 1) + nums[i] ,  nums[ i ])
  ,即下标为 i 时连续数组的最大和 肯定等于 nums[ i ] 和下标为 i  - 1时连续数组的最大和加上nums[ i ]
- 的值中的最大的一个。这里为什么不是v(i) = max(v(i - 1) + nums[i] ,  v(i - 1))？
- 这里需要解释一下，如果这么写的话，有可能v[ i] 和 v[i - 1] 
+ 的值中的最大的一个。这里为什么不是dp(i) = max(dp(i - 1) + nums[i] ,  dp(i - 1))？
+ 这里需要解释一下，如果这么写的话，有可能dp[ i] 和 dp[i - 1] 
  是同一个子序且也不能实现是连续子序的要求
 
 */
@@ -42,15 +42,15 @@ using namespace std;
 int maxSubArray(vector<int>& nums) {
 	if (nums.empty())
 		return 0;
-	vector<int> v(nums);
+	vector<int> dp(nums);
 	int maxNum = nums[0];
 
 	for (int i = 1; i < nums.size(); i++)
 	{
-		v[i] = max(v[i - 1] + nums[i], nums[i]);
+		dp[i] = max(dp[i - 1] + nums[i], nums[i]);
 
-		if (maxNum < v[i])
-			maxNum = v[i];
+		if (maxNum < dp[i])
+			maxNum = dp[i];
 	}
 
 	return maxNum;
