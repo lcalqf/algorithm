@@ -12,9 +12,9 @@ void replace(char chString[], char chOldWord[], char chNewWord[])
     /*计算旧词和新词的长度*/
     while (chOldWord[nLen2++] != '\0');//注意这里啊是分号，语句结束，只要字符不为空nLen2就加一
     //当为空时其实nLen2多加了一
-    nLen2--;
+    nLen2++;
     while (chNewWord[nLen3++] != '\0');
-    nLen3--;
+    nLen3++;
     /*
       chString中可能有多个旧词，均要替换为新词；
       利用循环向前拨动查找位置，逐次进行比较和替换
